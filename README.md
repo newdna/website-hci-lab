@@ -3,5 +3,3 @@
 * Alexander Steven Lee
 * David Christian
 * Mico Wijaya
-
-Copyright Binus University 2022
