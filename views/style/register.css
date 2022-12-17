@@ -72,15 +72,16 @@
 }
 
 .form-field-tos {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
     margin: 1rem 0;
+}
+
+.form-field-tos > small {
+    display: block;
 }
 
 .tos {
     font-size: small;
+    padding: 0 1rem;
 }
 
 .form-field.error input {
@@ -89,4 +90,20 @@
 
 .form-field small {
     color: red;
+}
+
+.form-field.success input {
+    border-color: rgb(0, 102, 255);
+}
+
+.form-field-tos.error input {
+    border-color: red;
+}
+
+.form-field-tos small {
+    color: red;
+}
+
+.form-field-tos.success input {
+    border-color: rgb(0, 102, 255);
 }
