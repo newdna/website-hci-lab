@@ -150,29 +150,3 @@ const success = (input) => {
     const display = inputField.querySelector("small");
     display.textContent = "";
 };
-
-// const debounce = (func, delay = 500) => {
-//     let time;
-//     return(...args) => {
-//         clearTimeout(time);
-//         time = setTimeout(() => {
-//             func.apply(this, args);
-//         }, delay);
-//     };
-// };
-
-// const form = document.querySelector("#form-fill");
-// form.addEventListener("input", debounce(function(e) {
-//         switch(e.target.id) {
-//             case "name":
-//                 checkName();
-//                 break;
-//         }
-//     })
-// );
-
-// form.addEventListener("submit", function(e) {
-//     e.preventDefault();
-//     let valid = checkName();
-//     if(valid) alert("submitted");
-// });
