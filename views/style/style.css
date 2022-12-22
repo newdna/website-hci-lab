@@ -12,6 +12,19 @@ html {
     scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+::-webkit-scrollbar-track {
+    background: gray;
+}
+
+::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 2rem;
+}
+
 header {
     background-color: black;
     padding: 0.5rem 1.5rem;
