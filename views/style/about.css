@@ -1,0 +1,103 @@
+
+.content {
+    margin: 3rem 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-about {
+    display: flex;
+    flex-direction: row;
+}
+
+.top-about > img {
+    height: 15rem;
+}
+
+.sosmed-icon {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.sosmed-icon > p {
+    margin-left: 1rem;
+}
+
+.sosmed-icon > a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.sosmed-icon > a:hover {
+    color: blue;
+}
+
+.icon {
+    height: 2.5rem;
+}
+
+.split-text > p {
+    margin: 0 20rem 0 0;
+}
+
+
+
+.mid-about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 7rem 0;
+}
+
+.contact {
+    height : 20rem;
+}
+
+@media only screen and (max-width: 1300px) {
+    .split-text > p {
+        margin: 0;
+    }
+
+    .contact {
+        height: 15rem;
+    }
+
+    .content {
+        margin: 3rem 10rem;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .content {
+        margin: 3rem 5rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .content {
+        margin: 3rem 2rem;
+    }
+
+    .mid-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact {
+        height: 15rem;
+        margin-bottom: 5rem;
+    }
+
+    .top-about > img {
+        height: 15rem;
+        margin-bottom: 3rem;
+    }
+
+    .top-about {
+        flex-direction: column-reverse;
+    }
+}
