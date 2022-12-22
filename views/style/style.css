@@ -4,6 +4,10 @@
     font-family: 'Lato', sans-serif;
 }
 
+body {
+    background-color: rgb(245, 245, 138);
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -29,7 +33,8 @@ header {
 
 .navigation {
     display: flex;
-    flex-direction: row
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .navigation-item {
@@ -52,4 +57,14 @@ header {
 
 .logo {
     height: 4rem;
+}
+
+footer {
+    background-color: black;   
+}
+
+footer > p {
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
 }
