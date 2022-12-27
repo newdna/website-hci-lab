@@ -1,0 +1,46 @@
+.jumbotron {
+    background-image: url(./../../public/assets/1.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    padding: 0 8rem;
+}
+
+.title > h1 {
+    font-size: 3rem;
+}
+
+.top {
+    margin: 1rem 8rem;
+}
+
+.section-content > h1 {
+    margin: 1.5rem 0;
+}
+
+.section-content {
+    margin: 2rem 0;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+}
+
+.section-img > img {
+    height: 15rem;
+}
