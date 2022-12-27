@@ -1,6 +1,6 @@
 .jumbotron {
     background-image: url(./../../public/assets/1.webp);
-    background-size: contain;
+    background-size:auto;
     background-repeat: no-repeat;
     height: 30rem;
     display: flex;
@@ -43,4 +43,64 @@
 
 .section-img > img {
     height: 15rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .jumbotron {
+        background-size: contain;
+        height: 25rem;
+    }
+
+    .title {
+        padding: 0 4rem;
+    }
+
+    .section-img > img {
+        height: 12rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .jumbotron {
+        height: 20rem;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .section-img {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 1rem 0;
+    }
+
+    .section-img > img {
+        height: 8rem;
+    }
+
+    .tag {
+        margin: 0 2rem;
+    }
+
+    .tag > span {
+        margin: 0 1rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .jumbotron {
+        height: 18rem;
+    }
+    
+    .title {
+        padding: 0 2rem;
+    }
+
+    .title > h1 {
+        font-size: 2.5rem
+    }
 }
