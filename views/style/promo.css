@@ -1,8 +1,8 @@
 .jumbotron {
     background-image: url(./../../public/assets/1.webp);
-    background-size:auto;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 30rem;
+    height: 40rem;
     display: flex;
     align-items: center;
 }
