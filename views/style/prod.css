@@ -22,11 +22,18 @@
 }
 
 .item-img > img {
-    height: 10rem;
+    height: 15rem;
 }
 
 .item-img > p{
     text-align: center;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 0;
 }
 
 @media only screen and (max-width: 1200px) {
