@@ -7,13 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <style> @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); </style>
     <link rel="stylesheet" href="./../views/style/style.css">
+    <script src="./../node_modules/jquery/dist/jquery.min.js"></script>
     <title>Golden Circle</title>
 </head>
 <body>
     <header>
         <div class="nav">
-            <img src="./../public/assets/logo.png" class="logo"></img>
-            <div class="nav-item">
+            <div class="nav-item" id="nav-item">
+                <img src="./../public/assets/logo.png" class="logo"></img>
                 <ul class="navigation">
                     <li class="navigation-item">
                         <a href="/views/index.html" class="nav-link">Home</a>
@@ -33,9 +34,34 @@
                 </ul>
             </div>
         </div>
+        <!--Responsive-->
+        <div class="responsive">
+            <img src="./../public/assets/logo.png" class="logo-resp"></img>
+            <img src="./../public/assets/menu.png" alt="" class="ham-menu" id="hamburger">
+        </div>
+        <div class="nav-resp" id="nav-resp">
+            <ul class="navigation-resp">
+                <li class="navigation-item-resp">
+                    <a href="/views/index.html" class="nav-link">Home</a>
+                </li>
+                <li class="navigation-item-resp">
+                    <a href="/views/products.html" class="nav-link">Jewelry</a>
+                </li>
+                <li class="navigation-item-resp">
+                    <a href="/views/promotions.html" class="nav-link">Promotions</a>
+                </li>
+                <li class="navigation-item-resp">
+                    <a href="/views/about.html" class="nav-link">About Us</a>
+                </li>
+                <li class="navigation-item-resp">
+                    <a href="/views/register.html" class="nav-link">Membership</a>
+                </li>
+            </ul>
+        </div>
     </header>
     <footer>
         <p>Copyright © 2022 Golden Circle, Jakarta</p>
     </footer>
 </body>
+<script src="./../public/js/navbar.js"></script>
 </html>

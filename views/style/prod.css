@@ -40,9 +40,13 @@
     .content {
         margin: 1.5rem 4rem;
     }
+
+    .item-img > img {
+        height: 10rem;
+    }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 923px) {
     .item-img > img {
         height: 8rem;
     }

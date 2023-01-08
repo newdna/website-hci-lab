@@ -8,13 +8,14 @@
     <style> @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); </style>
     <link rel="stylesheet" href="./../views/style/style.css">
     <link rel="stylesheet" href="./../views/style/prod.css">
+    <script src="./../node_modules/jquery/dist/jquery.min.js"></script>
     <title>Golden Circle</title>
 </head>
 <body>
     <header>
         <div class="nav">
-            <img src="./../public/assets/logo.png" class="logo"></img>
             <div class="nav-item">
+                <img src="./../public/assets/logo.png" class="logo"></img>
                 <ul class="navigation">
                     <li class="navigation-item">
                         <a href="/views/index.html" class="nav-link">Home</a>
@@ -34,6 +35,30 @@
                 </ul>
             </div>
         </div>
+        <!--Responsive-->
+        <div class="responsive">
+            <img src="./../public/assets/logo.png" class="logo-resp"></img>
+            <img src="./../public/assets/menu.png" alt="" class="ham-menu" id="hamburger">
+        </div>
+        <div class="nav-resp" id="nav-resp">
+            <ul class="navigation-resp">
+                <li class="navigation-item-resp">
+                    <a href="/views/index.html" class="nav-link">Home</a>
+                </li>
+                <li class="navigation-item-resp">
+                    <a href="/views/products.html" class="nav-link">Jewelry</a>
+                </li>
+                <li class="navigation-item-resp">
+                    <a href="/views/promotions.html" class="nav-link">Promotions</a>
+                </li>
+                <li class="navigation-item-resp">
+                    <a href="/views/about.html" class="nav-link">About Us</a>
+                </li>
+                <li class="navigation-item-resp">
+                    <a href="/views/register.html" class="nav-link">Membership</a>
+                </li>
+            </ul>
+        </div>
     </header>
     <div class="content">
         <h1>We serve the best for you!</h1>
@@ -41,13 +66,13 @@
             <!--Yellow Gold Jewelry-->
             <div class="title">
                 <h1>Yellow Gold</h1>
-                <p>Yellow Gold is our topmost quality jewelry made from 24 karat gold   </p>
+                <p>Yellow Gold is our topmost quality jewelry made from 24 karat gold</p>
             </div>
             <div class="items">
                 <!--Bracelet-->
                 <div class="dropdown">
-                    <h2>Bracelet</h2>
-                    <div class="drop-item">
+                    <h2 id="show-hide">Bracelet</h2>
+                    <div class="drop-item" id="drop-item">
                         <div class="item-img">
                             <img src="./../public/assets/bracelet1.webp" alt="">
                             <div class="tag">
@@ -345,4 +370,6 @@
         <p>Copyright © 2022 Golden Circle, Jakarta</p>
     </footer>
 </body>
+<!-- <script src="./../public/js/hidden.js"></script> -->
+<script src="./../public/js/navbar.js"></script>
 </html>
