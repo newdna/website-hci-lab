@@ -36,6 +36,14 @@
     margin: 0.5rem 0;
 }
 
+.dropdown > h2:hover {
+    cursor: pointer;
+}
+
+.wrapper {
+    margin: 5rem 0 0 0;
+}
+
 @media only screen and (max-width: 1200px) {
     .content {
         margin: 1.5rem 4rem;

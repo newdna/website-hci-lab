@@ -1,6 +1,7 @@
 $(function() {
-    $('#drop-item').toggle();
-    $('#show-hide').click(() => {
-        $('#drop-item').toggle(500)
-    })
+    const item = document.querySelector(".show-hide");
+    $('.drop-item').toggle();
+    $('.item-header').click(function() {
+        $(this).next().toggle(500);
+    });
 })
